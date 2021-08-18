@@ -1,1 +1,1 @@
-# Checkpoints will be saved in this directory.
+# Checkpoints will be saved in this directory
