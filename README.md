@@ -7,7 +7,7 @@ This repository holds the code and data of our CIKM 2021 paper "Multi-Relational
 3. dgl-cu90 0.4.3.post2
 
 # Training:
-1. Ensure that the following directories exist at the same level with src/: Checkpoints/, log/, results/, data/, tensorboard_runs/;
+1. Ensure that the following directories exist at the same level with src/: checkpoints/, log/, results/, data/, tensorboard_runs/;
 2. Place the whole dataset into data/ directory;
 3. In the src/ directory, run the following command:
 ```
@@ -34,7 +34,7 @@ python -u main.py \
 --hidden_size_list 16 \
 --constraint_1_list_path ../data/constraint_1_list.json \
 --constraint_2_list_path ../data/constraint_2_list.json \
---checkpoint_path ../Checkpoints/checkpoint.tar \
+--checkpoint_path ../checkpoints/checkpoint.tar \
 --num_mlp_layers_list 1 1 \
 --batch_norm_flag_list 1 1 \
 --activation_name_list leaky_relu leaky_relu \
