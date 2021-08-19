@@ -7,7 +7,7 @@ This repository holds the code and data of our CIKM 2021 paper "Multi-Relational
 3. dgl-cu90 0.4.3.post2
 
 # Dataset
-1. The dataset compressed in zip format (CIKM2021_data.zip) is available via the [link](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zlinai_connect_ust_hk/EVIsBcubCi1Luv-GmRTgbUwBUwcqx8Kf9R7Xgjtez5mzeg?e=OSl00r);
+1. The dataset compressed in zip format (CIKM2021_data.zip) is available [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zlinai_connect_ust_hk/EVIsBcubCi1Luv-GmRTgbUwBUwcqx8Kf9R7Xgjtez5mzeg?e=jyVqyN);
 2. See the Data_README.txt for the description of the dataset.
 
 # Training:
