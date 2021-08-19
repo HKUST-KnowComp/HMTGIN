@@ -6,9 +6,13 @@ This repository holds the code and data of our CIKM 2021 paper "Multi-Relational
 2. torch 1.4.0
 3. dgl-cu90 0.4.3.post2
 
+# Dataset
+1. The dataset compressed in zip format (CIKM2021_data.zip) is available via the link:   ;
+2. See the Data_README.txt for the description of the dataset.
+
 # Training:
-1. Ensure that the following directories exist at the same level with src/: checkpoints/, log/, results/, data/, tensorboard_runs/;
-2. Place the whole dataset into data/ directory;
+1. Download the CIKM2021_data.zip file, extract the data/ directory in it and place the data/ directory at the same level with src/;
+2. Ensure that the following directories exist at the same level with src/: checkpoints/, log/, results/, tensorboard_runs/;
 3. In the src/ directory, run the following command:
 ```
 CUDA_VISIBLE_DEVICES=$gpu_id \
@@ -56,6 +60,3 @@ python -u main.py \
 4. After executing the program, the checkpoints with the best average scores on the development set will be saved in Checpoints/, the training log will be logged to log/, training results will be saved in results/, the tensorboard event logs will be saved in tensorboard_runs/;
 5. See the comments within the soure code for more details about using the code.
 
-# Dataset
-1. The dataset is available via the link:   ;
-2. See the Data_README.txt for the description of the dataset.
