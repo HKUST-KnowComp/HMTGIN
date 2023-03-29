@@ -6,15 +6,15 @@ Experiment dataset created by cleaning and sampling from the raw Stack Overflow 
 
 		- Node1_relation_Node2_Edge_Indices.npy: A 2-dimensional numpy array storing the sample edge indices of canonical edge type (Node1, relation, Node2). The first row stores the source node indices of all sample edges, and the second row stores the destination node indices of all sample edges.
 
-	- Answer_Recommendation/: dataset of Answer Recommendation task
+	- Answer_Recommendation/: dataset of Answer Recommendation task (train: 67,789, dev: 8,474, test: 8,473)
 
-	- Duplicate_Question_Detection/: dataset of Duplicate Question Detection task
+	- Duplicate_Question_Detection/: dataset of Duplicate Question Detection task (train: 4,227, dev: 528, test: 528)
 
-	- Answer_Score_Classification/: dataset of Answer Score Classification task
+	- Answer_Score_Classification/: dataset of Answer Score Classification task (train: 969,846, dev: 121,231, test: 121,231)
 
-	- Tag_Recommendation/: dataset of Tag Recommendation task
+	- Tag_Recommendation/: dataset of Tag Recommendation task (train: 762, 443, dev: 95,305, test: 95,304)
 
-	- User_Reputation_Classification/: dataset of User Reputation Classification task
+	- User_Reputation_Classification/: dataset of User Reputation Classification task (train: 618,813, dev: 77,352, test: 77,352)
 
 	- Combined_Features_Embeddings/: combined feature embeddings stored in numpy arrays
 
